@@ -1,0 +1,18 @@
+/**
+* @Author: belst
+* @Date:   20-09-2016
+* @Email:  gsm@bel.st
+* @Last modified by:   belst
+* @Last modified time: 20-09-2016
+* @License: BSD3
+*/
+
+
+.container {
+	width: 600px;
+	margin: auto;
+	box-shadow: 0 0 20px rgba(0,0,0,.1);
+	box-sizing: border-box;
+	padding: 3em;
+	position: relative;
+}
