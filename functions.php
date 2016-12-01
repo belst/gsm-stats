@@ -1,13 +1,4 @@
 <?php
-/**
- * Author: belst
- * Date:   20-09-2016
- * Email:  gsm@bel.st
- * Last modified by:   belst
- * Last modified time: 20-09-2016
- * License: BSD3
-*/
-
 
 class Helper {
 
@@ -19,10 +10,10 @@ private $pdo;
 
 
 public function __construct($host, $db, $username, $password,
-        $nickstb, $usertb, $statstb)
+                            $nickstb, $usertb, $statstb)
 {
     $this->pdo = new PDO("mysql:host={$host};dbname={$db}",
-        $username, $password);
+                         $username, $password);
     $this->pdo->exec('SET CHARACTER SET utf8');
 
     $this->nickstb = $nickstb;

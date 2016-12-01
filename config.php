@@ -1,14 +1,4 @@
 <?php
-/**
- * @Author: belst
- * @Date:   20-09-2016
- * @Email:  gsm@bel.st
- * @Last modified by:   belst
- * @Last modified time: 20-09-2016
- * @License: BSD3
-*/
-
-
 return array(
     'host'     => 'localhost',      // hostname of your database
     'db'       => 'gsm',            // name of your database

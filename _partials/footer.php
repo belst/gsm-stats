@@ -1,13 +1,3 @@
-<!--
-@Author: belst
-@Date:   20-09-2016
-@Email:  gsm@bel.st
-@Last modified by:   belst
-@Last modified time: 20-09-2016
-@License: BSD3
--->
-
-
 </div>
 
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
